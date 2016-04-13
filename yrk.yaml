@@ -1,0 +1,48 @@
+internalName: Tundra_Nenets 
+
+displayNames:
+  en: Tundra Nenets
+  ru: Ненцкий язык
+  yrk: Ненец
+
+locale: yrk
+ 
+modes:
+  default: [
+    й ц у к е н г ш щ з х,
+    ӈ ы в а п р о л д ж э,
+    я ч с м и т ь б ю ʼ
+  ]
+  shift: [
+    Й Ц У К Е Н Г Ш Щ З Х,
+    Ӈ Ы В А П Р О Л Д Ж Э,
+    Я Ч С М И Т Ь Б Ю ˮ
+  ]
+
+longpress:
+  Н: Ӈ
+  Е: Ё 
+  Ӈ: Ф
+
+  н: ӈ
+  е: ё
+  ӈ: ф 
+  ь: ъ
+  ʼ: ˮ
+  
+styles:
+  tablet:
+    actions:
+      backspace: [1, right, fill]
+      enter: [2, right, fill]
+      shift: [3, both, fill]
+  phone:
+    actions:
+      shift: [3, left, fill]
+      backspace: [3, right, fill]
+
+strings:
+  space: Пробел
+  return: Ввод
+#  space: кэ̄сск
+#  return: рядтвоайхэсс
