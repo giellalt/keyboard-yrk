@@ -1,4 +1,5 @@
-internalName: tundra_nenets_keyboards
+### Generated from se-t-k0-osx.xml on 2017-05-08 at 07:51.
+internalName: yrk_keyboards
 
 displayNames:
   en: Tundra Nenets
@@ -6,7 +7,7 @@ displayNames:
   yrk: Ненец
 
 locale: yrk
- 
+
 modes:
 # mobile layouts:
   mobile-default: |
