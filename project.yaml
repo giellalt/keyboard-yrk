@@ -22,7 +22,7 @@ build: 1
 targets:
   android:
     packageId: no.uit.giella.keyboards.yrk
-    icon: yrk-icon.pdf
+    icon: images/yrk-icon.pdf
     keyStore: /Users/brendan/git/softkbdgen/test.keystore
     keyAlias: yrk_keyboard
 
@@ -31,7 +31,5 @@ targets:
     provisioningProfileId: Test
     packageId: no.uit.giella.keyboards.yrk
     bundleName: *bundleName
-    icon:
-        90: yrk-icon-small.png
-        150: yrk-icon.png
+    icon: images/yrk-icon.png
   osx: *AppleID
